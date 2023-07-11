@@ -611,7 +611,7 @@ footer {
     }
 
 
-    #main-body h1 {
+    #main-body .container-title h1 {
         color: #A1232D;
         text-align: center;
         font-family: sans-serif;
