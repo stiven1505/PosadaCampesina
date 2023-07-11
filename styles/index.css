@@ -354,17 +354,17 @@ nav {
 
 .switch #switcher2:not(:checked)+label {
     background-image: url('../img/instagram-ico.png');
-      border-radius: 50px;
+    border-radius: 50px;
 }
 
 .switch #switcher3:not(:checked)+label {
     background-image: url('../img/gmail 1.png');
-      border-radius: 50px;
+    border-radius: 50px;
 }
 
 .switch #switcher4:not(:checked)+label {
     background-image: url('../img/whatsapp-ico.png');
-      border-radius: 50px;
+    border-radius: 50px;
 }
 
 
@@ -627,6 +627,11 @@ footer {
     #main-body .container-title {
         width: 60%;
     }
+
+    #main-footer {
+        padding: 113px;
+    }
+
     .switch input {
         width: 578.41px;
         height: 108.88px;
