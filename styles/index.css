@@ -615,6 +615,9 @@ footer {
         font-size: 32px;
     }
 
+    #main-body .container-title {
+        width: 60%;
+    }
     .switch input {
         width: 578.41px;
         height: 108.88px;
