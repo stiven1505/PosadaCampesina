@@ -35,13 +35,13 @@ Main #main-header {
     background: #D9D9D9;
 }
 
-#main-body h1 {
+
+#main-body .container-title h1 {
     color: #A1232D;
     text-align: center;
     font-family: sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
     line-height: 154.4%;
 }
 
@@ -520,7 +520,6 @@ footer {
         font-family: sans-serif;
         font-size: 16px;
         font-style: normal;
-        font-weight: 500;
         line-height: 154.4%;
         margin-top: 5px;
         margin-bottom: 9px;
@@ -611,8 +610,16 @@ footer {
         height: 437px;
     }
 
+
     #main-body h1 {
-        font-size: 32px;
+        color: #A1232D;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        line-height: 154.4%;
+        margin-top: 5px;
+        margin-bottom: 9px;
     }
 
     #main-body .container-title {
