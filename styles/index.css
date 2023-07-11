@@ -606,8 +606,10 @@ footer {
 @media screen and (min-width:1440px) {
 
     #main-header .content-gif {
-        width: 581px;
-        height: 437px;
+        width: 967.6px;
+        height: 513.121px;
+        flex-shrink: 0;
+        padding: 53px 42px 53px 42px;
     }
 
 
