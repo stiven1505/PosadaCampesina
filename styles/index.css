@@ -1,24 +1,23 @@
-Main
-
-#main-header {
+Main #main-header {
     width: 100%;
     /* min-height: 40vh; */
-    background-image: url('../img/Fondo-newtecnic.png');
+    background-image: url('../img/434457926.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 22px;
+    padding: 32px;
 }
 
 #main-header .content-gif {
-    width: 314.875px;
-    height: 240px;
+    width: 252.923px;
+    height: 96.923px;
     flex-shrink: 0;
-    background-color: #f9fefa;
     display: flex;
+    background: rgba(217, 217, 217, 0.20);
+    backdrop-filter: blur(5px);
 
 }
 
@@ -30,21 +29,20 @@ Main
 }
 
 #main-body {
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #D9D9D9;
 }
 
 #main-body h1 {
-    color: #000;
+    color: #A1232D;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    margin: 5px 0 5px 0;
+    font-weight: 500;
+    line-height: 154.4%;
 }
 
 #main-footer {
@@ -180,7 +178,7 @@ Main
 }
 
 .switch #switcher:checked+label {
-    background-image: url('../img/Newtecnic.png');
+    background-image: url('../img/cropped-ICONO-POSADA-CAMPESINA-LA-GLORIA-04-1.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -207,12 +205,7 @@ Main
     background-repeat: no-repeat;
 }
 
-.switch #switcher5:checked+label {
-    background-image: url('../img/Recurso\ 6.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
+
 
 
 .switch #switcher:hover {
@@ -512,14 +505,16 @@ footer {
         width: 437px;
         height: 329px;
         flex-shrink: 0;
-        background-color: #f9fefa;
+        background: rgba(217, 217, 217, 0.20);
+        backdrop-filter: blur(5px);
         display: flex;
 
     }
-   
-    #main-body .container-title{
+
+    #main-body .container-title {
         width: 500px;
     }
+
     #main-body h1 {
         color: #000;
         text-align: center;
@@ -530,92 +525,93 @@ footer {
         line-height: normal;
         margin: 13px 0 13px 0;
     }
+
     /* Buttons Main*/
 
-.switch {
-    position: relative;
-    width: 437px;
-    height: 82.259px;
-    border-radius: 80px;
-    margin: 10px 0 10px 0;
-}
+    .switch {
+        position: relative;
+        width: 437px;
+        height: 82.259px;
+        border-radius: 80px;
+        margin: 10px 0 10px 0;
+    }
 
-.switch input {
-    appearance: none;
-    background: rgba(255, 255, 255, 0.20);
-    backdrop-filter: blur(5px);
-    box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-    width: 437px;
-    height: 82.259px;
-    outline: none;
-}
+    .switch input {
+        appearance: none;
+        background: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(5px);
+        box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 50px;
+        width: 437px;
+        height: 82.259px;
+        outline: none;
+    }
 
-.switch input::before,
-.switch input::after {
-    z-index: 2;
-    position: absolute;
-    top: 40px;
-    right: 20px;
-    transform: translateY(-50%);
-    font-weight: bolder;
-}
+    .switch input::before,
+    .switch input::after {
+        z-index: 2;
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        transform: translateY(-50%);
+        font-weight: bolder;
+    }
 
-.switch input::before {
-    content: '';
-    left: 10px;
-}
+    .switch input::before {
+        content: '';
+        left: 10px;
+    }
 
-.switch input::after {
-    content: '';
-    right: 10px;
-    display: block;
-    width: 61px;
-    height: 61px;
-    background: rgba(156, 152, 152, 0.438);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
-    border-radius: 80px;
+    .switch input::after {
+        content: '';
+        right: 10px;
+        display: block;
+        width: 61px;
+        height: 61px;
+        background: rgba(156, 152, 152, 0.438);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+        border-radius: 80px;
 
-}
+    }
 
-.switch input:checked {
-    background: rgba(255, 255, 255, 0.20);
-    backdrop-filter: blur(5px);
-}
+    .switch input:checked {
+        background: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(5px);
+    }
 
-.switch label {
-    width: 61px;
-    height: 61px;
-    z-index: 1;
-    position: absolute;
-    top: 10px;
-    bottom: 10px;
-    border-radius: 80px;
-}
+    .switch label {
+        width: 61px;
+        height: 61px;
+        z-index: 1;
+        position: absolute;
+        top: 10px;
+        bottom: 10px;
+        border-radius: 80px;
+    }
 
-.switch input:not(:checked)+label {
-    left: 370px;
-    right: 50px;
-    /* background-color: green; */
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    backdrop-filter: blur(5px);
-    transition: left 0.4s 0.2s, right 0.5s, background 0.35s;
-}
+    .switch input:not(:checked)+label {
+        left: 370px;
+        right: 50px;
+        /* background-color: green; */
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        backdrop-filter: blur(5px);
+        transition: left 0.4s 0.2s, right 0.5s, background 0.35s;
+    }
 
 }
 
 
 /*PC*/
 @media screen and (min-width:1440px) {
-    
-    #main-header .content-gif{
+
+    #main-header .content-gif {
         width: 581px;
         height: 437px;
     }
 
-    #main-body h1{
+    #main-body h1 {
         font-size: 32px;
     }
 
@@ -626,11 +622,11 @@ footer {
 
     .switch {
 
-      
+
         width: 578.41px;
         height: 108.88px;
     }
-    
+
 
     .switch input:checked+label {
         left: 17px;
@@ -640,6 +636,7 @@ footer {
         height: 63.51px;
         width: 63.51px;
     }
+
     .switch label {
         z-index: 1;
         position: absolute;
@@ -648,15 +645,17 @@ footer {
         /* border-radius: 20px; */
         /* background-color: red; */
     }
-    
+
     .switch input::after {
-      
+
         width: 71.6px;
         height: 71.6px;
 
         border-radius: 53px;
     }
-    .switch input::before, .switch input::after {
+
+    .switch input::before,
+    .switch input::after {
         top: 52px;
 
     }
@@ -668,6 +667,7 @@ footer {
         height: 63.51px;
         width: 63.51px;
     }
+
     /*Botones
 
     .switch input:checked+label {
