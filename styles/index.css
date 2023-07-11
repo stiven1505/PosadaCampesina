@@ -264,9 +264,15 @@ Main #main-header {
 
 /*Navbar*/
 
+
+.bg-body-tertiary{
+    background-color: #9F232C !important;
+}
+
 nav {
     Position: relative !important;
     height: 100px;
+    
 }
 
 .nav-link {
@@ -294,6 +300,11 @@ nav {
     transform: scaleX(0);
     transition: transform 0.3s;
     transform-origin: left;
+}
+
+.fa-home{
+    color: white;
+    font-size: 27px;
 }
 
 .navbar-nav .nav-link:hover::after,
@@ -326,10 +337,7 @@ nav {
     transition: left 0.4s 0.2s, right 0.5s, background 0.35s;
 }
 
-.img-fluid {
-    width: 211px;
-    height: 50px;
-}
+
 
 .container-fluid {
     padding-left: 6%;
@@ -389,8 +397,8 @@ nav {
 
 
 .img-fluid {
-    width: 211px;
-    height: 50px;
+    width: 184px;
+    height: 82px;
 }
 
 .container-fluid {
@@ -426,6 +434,7 @@ footer {
 .contFooter {
     display: flex;
     align-items: center;
+    margin-left: 13%;
 }
 
 .contFooter p {
@@ -434,13 +443,40 @@ footer {
 }
 
 .logoEydocFooter {
-    margin-right: 10px;
+height: 50px;
+width: 50px;
+margin-right: 10px;
 }
 
-.logoEydocFooter {
-    margin-right: 4px;
-    height: 28px;
-    width: 28px;
+
+/* Banda con logos*/
+.logos{
+    width: 10%;
+    aspect-ratio: 6/2;
+    object-fit: contain;
+    margin-left: -32px;
+    
+   }
+
+.logo1{
+    height: 51.18px;
+    width: 51.18px;
+}
+.logo2{
+    width: 191.21px;
+    height: 65.67px;
+}
+ .logo4{
+    margin-right: 2%;
+    height: 51.18px;
+    width: 115.88px;
+ }  
+
+.contLogoEydoc{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+
 }
 
 /*Responsive*/
@@ -464,6 +500,11 @@ footer {
         width: 18px;
     }
 
+    .log{
+        width:13.26px;
+        height: 13.26px;
+    }
+
 }
 
 /*Tablet*/
@@ -475,13 +516,13 @@ footer {
     nav {
         height: 70px;
     }
-
-
     .img-fluid {
-        width: 135px;
-        height: 32px;
-
+        width: 92px;
+        height: 41px;
     }
+
+
+
 
     /*Main*/
 
@@ -605,11 +646,25 @@ footer {
 /*PC*/
 @media screen and (min-width:1440px) {
 
+
+    .img-fluid {
+        width: 184px;
+        height: 82px;
+    }
+    nav{
+        height: 100px;
+    }
+    
+    #main-header .content-gif{
+        width: 581px;
+        height: 437px;
+    }
     #main-header .content-gif {
         width: 967.6px;
         height: 513.121px;
         flex-shrink: 0;
         padding: 53px 42px 53px 42px;
+
     }
 
 
