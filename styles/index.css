@@ -178,7 +178,7 @@ Main #main-header {
 }
 
 .switch #switcher:checked+label {
-    background-image: url('../img/cropped-NOMBRE-POSADA-CAMPESINA-LA-GLORIA_Mesa-de-trabajo-1-1.png');
+    background-image: url('../img/LogoTipo-cabecera.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -355,7 +355,7 @@ nav {
 
 
 .switch #switcher:not(:checked)+label {
-    background-image: url('../img/cropped-NOMBRE-POSADA-CAMPESINA-LA-GLORIA_Mesa-de-trabajo-1-1.png');
+    background-image: url('../img/LogoTipo-cabecera.png');
     background-color: #A1232D;
     border-radius: 50px;
 }
