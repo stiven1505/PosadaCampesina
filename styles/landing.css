@@ -1,0 +1,150 @@
+/*Header Main*/
+
+Main #main-header-landing {
+    width: 100%;
+    background-image: url('../img/inicioLanding.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+   /*Texto*/
+.content-text-bienvenida{
+    width:800px ;
+    height:600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.text-bienvenida{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64.58px;
+    color: #ffffff;
+}
+
+
+
+/*Galeria*/
+
+#main-galeria-landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+  
+
+    /*Imagenes*/
+    .galeria{
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+    .galeria-img{
+        width: 423px;
+        height: 234px;
+        padding: 10px;
+    }
+
+
+/*Informacion*/
+
+#main-informacion-landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+    /*Texto*/
+    .content-text-informacion{
+        width:44% ;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2%;
+    
+        
+    }
+    .text-informacion{
+        font-family: Sans Serif Collection;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 49px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+        color:  #A1232D;
+        ;
+    }
+
+/*Servicios*/
+#main-servicios-landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A1232D;
+}
+
+    /*Texto*/
+    .content-titulo-servicios{
+        width: 980px;
+        height: 172px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    
+        
+    }
+    .titulo-servicios{
+        font-family: 'League Spartan', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+        
+        color: #ffffff;
+    }
+
+
+    .content-listado-servicios{
+        width: 980px;
+        height: 172px;
+        display: flex;
+    }
+    .listado-servicios{
+        font-family: Sans Serif Collection;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+        
+        color: #ffffff;
+    }
+
+
+    /*Imagen*/
+
+    .content-imagen-servicios{
+        margin-bottom: 5%;
+    }
+    .imagen-servicios{
+        width: 1000px;
+        height: 375px;
+        top: 1455px;
+        left: 220px;
+        
+    }
+
+
