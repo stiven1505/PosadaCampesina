@@ -45,15 +45,12 @@ Main #main-header-landing {
   
 
     /*Imagenes*/
-    .galeria{
-        margin-top: 1%;
-        margin-bottom: 2%;
-    }
     .galeria-img{
         width: 423px;
         height: 234px;
         padding: 10px;
     }
+
 
 
 /*Informacion*/
@@ -179,7 +176,7 @@ Main #main-header-landing {
         color: #A1232D;
     }
 
-    /*Imagen*/
+    /*Mapa*/
 
     .content-imagen-ubicacion{
         margin-bottom: 5%;
