@@ -35,19 +35,26 @@ Main #main-header-landing {
 
 /*Galeria*/
 
-#main-galeria-landing{
+#main-galeria-landing {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #ffffff;
+    width: 100%; 
+    margin-left: 1%;
+
+}
+
+#carouselExample {
+    width: 80%; /* Ajusta el ancho del carrusel según sea necesario */
 }
 
   
 
     /*Imagenes*/
     .galeria-img{
-        width: 423px;
-        height: 234px;
+        width:33%;
+        height: 300px;
         padding: 10px;
     }
 
@@ -96,7 +103,7 @@ Main #main-header-landing {
 
     /*Texto*/
     .content-titulo-servicios{
-        width: 980px;
+      
         height: 172px;
         align-items: center;
         display: flex;
@@ -117,9 +124,10 @@ Main #main-header-landing {
 
 
     .content-listado-servicios{
-        width: 980px;
+        width: 80%;
         height: 172px;
         display: flex;
+        margin-left: 3%;
     }
     .listado-servicios{
         font-family: sans-serif;
@@ -136,18 +144,20 @@ Main #main-header-landing {
 
     /*Imagen*/
 
-    .content-imagen-servicios{
-        margin-bottom: 5%;
-    }
-    .imagen-servicios{
-        width: 1000px;
-        height: 500px;
-        top: 1455px;
-        left: 220px;
-        
-    }
+    .content-imagen-servicios {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        height: 40vh; /* Establece la altura del contenedor al 100% de la ventana */
+        margin-bottom: 3%;
+      }
+      
+      .imagen-servicios {
+        max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+        max-height: 100%; /* Asegura que la imagen no exceda la altura del contenedor */
+      }
 
-/*Servicios*/
+/*Ubicacion*/
 #main-ubicacion-landing{
     display: flex;
     justify-content: center;
@@ -180,6 +190,85 @@ Main #main-header-landing {
 
     .content-imagen-ubicacion{
         margin-bottom: 5%;
+  
+    }
+
+
+    /*Responsive*/
+
+    /*Tablet*/
+
+
+    @media (max-width:744px) {
+    /*Header Main*/
+
+        /*Texto*/
+            .text-bienvenida{
+                font-size: 34px;
+            }
+
+
+     /*Galeria*/
+
+        /*Imagenes*/
+
+            #main-galeria-landing {
+                height: 11vh;
+            }
+            #carouselExample {
+                width: 97%;
+            }
+            .galeria-img{
+                height: 170px;
+            }
+
+
+
+    /*Informacion*/
+
+        /*Texto*/
+
+            .content-text-informacion {
+                width: 90%;
+            }
+
+            .text-informacion {
+                font-size: 15px;
+            }
+
+
+
+
+
+        /*Servicios*/
+
+            /*Imagen*/
+            .content-imagen-servicios {
+                height: 23vh;   
+            }
+
+            /*Texto*/
+            .content-listado-servicios {
+              margin-left: 9%;
+            }
+            .listado-servicios {
+
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 20px;
+
+            }   
+            
+        /*Ubicacion*/
+
+        /*Maps*/
+
+        .content-imagen-ubicacion div iframe{
+                width: 609px;
+                height: 300px;
+        }
+
+
     }
 
 
