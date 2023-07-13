@@ -262,11 +262,29 @@ Main #main-header-landing {
         /*Ubicacion*/
 
         /*Maps*/
-
-        .content-imagen-ubicacion div iframe{
-                width: 609px;
-                height: 300px;
+        #main-ubicacion-landing {
+            flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas más pequeñas */
         }
+    
+        /* Texto */
+        .content-titulo-ubicacion {
+            width: 100%; /* Ajusta el ancho al 100% para ocupar todo el espacio disponible */
+        }
+    
+        .titulo-ubicacion {
+            font-size: 24px; /* Reduce el tamaño de la fuente para pantallas más pequeñas */
+        }
+    
+        /* Mapa */
+        .content-imagen-ubicacion {
+            width: 100%; /* Ajusta el ancho al 100% para ocupar todo el espacio disponible */
+            margin-bottom: 3%; /* Reduce el margen inferior para evitar el desbordamiento */
+        }
+    
+        .content-imagen-ubicacion iframe {
+            max-width: 100%; /* Asegura que el mapa no exceda el ancho del contenedor */
+        }
+
 
 
     }
