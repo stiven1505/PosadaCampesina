@@ -70,6 +70,10 @@ Main #main-header {
 
 /* Buttons Main*/
 
+.landing, .instagram, .gmail, .whatsapp, .youtube {
+    cursor: pointer;
+}
+
 .switch {
     position: relative;
     width: 240px;
@@ -193,7 +197,7 @@ Main #main-header {
 }
 
 .switch #switcher3:checked+label {
-    background-image: url('../img/gmail 1.png');
+    background-image: url('../img/youtube-ico.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -366,7 +370,7 @@ nav {
 }
 
 .switch #switcher3:not(:checked)+label {
-    background-image: url('../img/gmail 1.png');
+    background-image: url('../img/youtube-ico.png');
     border-radius: 50px;
 }
 

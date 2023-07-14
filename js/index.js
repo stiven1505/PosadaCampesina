@@ -1,6 +1,7 @@
 var landing = document.querySelector('.landing');
 var instagram = document.querySelector('.instagram');
 var whatsapp = document.querySelector('.whatsapp');
+var youtube = document.querySelector('.youtube');
 
 landing.addEventListener('click', function() {
     window.location.href = '../landing.html';
@@ -10,4 +11,8 @@ whatsapp.addEventListener('click', function() {
 });
 instagram.addEventListener('click', function() {
     window.location.href = 'https://www.instagram.com/posadacampesinalagloria/';
+});
+
+youtube.addEventListener('click', function() {
+    window.location.href = 'https://www.youtube.com/@posadacampesinalagloria30';
 });
