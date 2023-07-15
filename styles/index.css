@@ -1,7 +1,7 @@
 Main #main-header {
     width: 100%;
     /* min-height: 40vh; */
-    background-image: url('../img/434457926.jpg');
+    background-image: url('../img/galeria2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -47,7 +47,7 @@ Main #main-header {
 
 #main-footer {
     position: relative;
-    background-image: url('../img/434457926.jpg');
+    background-image: url('../img/galeria2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -182,7 +182,7 @@ Main #main-header {
 }
 
 .switch #switcher:checked+label {
-    background-image: url('../img/LogoTipo-cabecera.png');
+    background-image: url('../img/logotipo_cabecera.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -359,7 +359,7 @@ nav {
 
 
 .switch #switcher:not(:checked)+label {
-    background-image: url('../img/LogoTipo-cabecera.png');
+    background-image: url('../img/logotipo_cabecera.png');
     background-color: #A1232D;
     border-radius: 50px;
 }
@@ -525,7 +525,7 @@ margin-right: 4px;
     #main-header {
         width: 100%;
         flex-shrink: 0;
-        background-image: url('../img/434457926.jpg');
+        background-image: url('../img/galeria2.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

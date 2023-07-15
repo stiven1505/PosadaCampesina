@@ -2,7 +2,7 @@
 
 Main #main-header-landing {
     width: 100%;
-    background-image: url('../img/inicioLanding.png');
+    background-image: url('../img/inicio_landing.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -40,7 +40,6 @@ Main #main-header-landing {
     justify-content: center;
     align-items: center;
     background: #ffffff;
-    width: 100%; 
     margin-left: 1%;
     height: auto;
 
@@ -327,11 +326,7 @@ Main #main-header-landing {
  /*Galeria*/
 
     /*Imagenes*/
-            /*Imagenes*/
-
-        /*Imagenes*/
-
-
+        
         .galeria-img{
             height: 110px;
         }
