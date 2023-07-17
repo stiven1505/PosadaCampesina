@@ -1,6 +1,6 @@
 Main #main-header {
     width: 100%;
-    /* min-height: 40vh; */
+     min-height: 40vh; 
     background-image: url('../img/galeria2.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -42,7 +42,9 @@ Main #main-header {
     font-family: sans-serif;
     font-size: 16px;
     font-style: normal;
-    line-height: 154.4%;
+    line-height: 138%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 #main-footer {
@@ -275,7 +277,7 @@ Main #main-header {
 
 nav {
     Position: relative !important;
-    height: 100px;
+    height: 60px;
     
 }
 
@@ -341,13 +343,6 @@ nav {
     transition: left 0.4s 0.2s, right 0.5s, background 0.35s;
 }
 
-
-
-.container-fluid {
-    padding-left: 6%;
-    padding-right: 6%;
-}
-
 .offcanvas {
     max-width: 50% !important;
 }
@@ -386,9 +381,6 @@ nav {
 
 /*Navbar*/
 
-nav {
-    Position: relative !important;
-}
 
 .nav-link {
     font-family: 'Montserrat', sans-serif;
@@ -422,6 +414,7 @@ nav {
 
 /*Footer */
 footer {
+    position: fixed;
     z-index: 2;
     bottom: 0;
     left: 0;
@@ -644,7 +637,7 @@ margin-right: 4px;
         margin-left: -26%;
     }
     .contLogoEydoc {
-    margin-left: 40%;
+    margin-left: 50%;
     }
     .contFooter p {
         width: 9rem;
