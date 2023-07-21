@@ -124,7 +124,7 @@ Main #main-header {
 }
 
 .switch input:checked {
-    background: rgba(255, 255, 255, 0.20);
+    background: rgb(46 43 43 / 47%);
     backdrop-filter: blur(5px);
 }
 
@@ -604,7 +604,7 @@ margin-right: 4px;
     }
 
     .switch input:checked {
-        background: rgba(255, 255, 255, 0.20);
+        background: rgb(46 43 43 / 47%);
         backdrop-filter: blur(5px);
     }
 
