@@ -16,3 +16,28 @@ instagram.addEventListener('click', function() {
 youtube.addEventListener('click', function() {
     window.location.href = 'https://www.youtube.com/@posadacampesinalagloria30';
 });
+
+// Función para observar la intersección de los elementos con el viewport
+function handleIntersection(entries, observer) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+        observer.unobserve(entry.target);
+      }
+    });
+  }
+  
+  // Agregar el Intersection Observer a los labels cuando se carga la página
+  document.addEventListener('DOMContentLoaded', function () {
+    var labels = document.querySelectorAll('.switch label');
+    var observerOptions = {
+      root: null,
+      threshold: 0.2 // Porcentaje de intersección requerido para activar la animación
+    };
+  
+    var observer = new IntersectionObserver(handleIntersection, observerOptions);
+    labels.forEach(function (label) {
+      observer.observe(label);
+    });
+  });
+  
