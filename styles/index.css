@@ -71,20 +71,6 @@ Main #main-header {
     background: rgba(51, 51, 51, 0.45);
 }
 
-@keyframes slideInFromTop {
-    0% {
-      transform: translateY(-100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  
-  .switch input:checked + label {
-    animation: slideInFromTop 0.7s ease-out;
-  }
 
 /* Buttons Main*/
 
