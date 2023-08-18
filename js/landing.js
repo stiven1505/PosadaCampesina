@@ -3,7 +3,7 @@
 
     const forms = document.querySelectorAll('.needs-validation');
     const formReservas = document.getElementById('formReservas');
-    const btnSubmitReservas = document.getElementById('btnSubmitReservas');
+    const aReservas = document.getElementById('a-reservas');
 
     const fechaLlegada = document.getElementById('fechaLlegada');
     const fechaSalida = document.getElementById('fechaSalida');
@@ -32,7 +32,8 @@
             "telefono": telefono.value,
         }
 
-        btnSubmitReservas.setAttribute('href', `mailto:oiarregoces@uniguajira.edu.co?subject=Nombre: ${body.nombre} - Correo: ${body.correo}&body=${body}`);
+        aReservas.setAttribute('href', `mailto:oiarregoces@uniguajira.edu.co?subject=Nombre: ${body.nombre} - Correo: ${body.correo}&body=${body}`);
+        aReservas.click();
 
 
         btnSubmitReservas.setAttribute('data-bs-dismiss', 'modal');

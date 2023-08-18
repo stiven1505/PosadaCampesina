@@ -18,7 +18,9 @@
     background-color: #a1232d81;
     border: #a1232d81;
 }
-
+.content-btnSubmitReservas a {
+    display: none;
+}
 
 /*Header Main*/
 
