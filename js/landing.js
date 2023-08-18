@@ -36,7 +36,7 @@
             `;
 
             console.log(body);
-            aReservas.setAttribute('href', `mailto:oiarregoces@uniguajira.edu.co?subject=Reserva Posada Campesina&body=${encodeURIComponent(body)}`);
+            aReservas.setAttribute('href', `mailto:posadacampesinalagloria@gmail.com?subject=Reserva Posada Campesina&body=${encodeURIComponent(body)}`);
             aReservas.click();
 
             btnSubmitReservas.setAttribute('data-bs-dismiss', 'modal');
