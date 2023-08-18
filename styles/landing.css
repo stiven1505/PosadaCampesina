@@ -10,13 +10,17 @@
     display: grid;
     place-items: center;
 }
-.btn-success{
+.content-btnSubmitReservas .btn-success{
     background-color: #A1232D;
     border: #A1232D;
 }
-.btn-success:active{
-    background-color: #a1232d81;
-    border: #a1232d81;
+.content-btnSubmitReservas .btn-success:active{
+    background-color: #A1232D;
+    border: #A1232D;
+}
+.content-btnSubmitReservas .btn-success:hover{
+    background-color: #a1232de0;
+    border: #a1232de0;
 }
 .content-btnSubmitReservas a {
     display: none;

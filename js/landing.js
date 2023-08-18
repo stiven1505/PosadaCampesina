@@ -7,8 +7,8 @@
 
     const fechaLlegada = document.getElementById('fechaLlegada');
     const fechaSalida = document.getElementById('fechaSalida');
-    const correo = document.getElementById('correo');
     const telefono = document.getElementById('telefono');
+    const nombre = document.getElementById('nombre');
 
     Array.from(forms).forEach(form => {
         form.addEventListener('submit', event => {
@@ -23,21 +23,29 @@
 
 
     formReservas.addEventListener('submit', (e) => {
-        e.preventDefault();
+        if (formReservas.checkValidity()) {
+            e.preventDefault();
 
-        let body = {
-            "fechaLlegada": fechaLlegada.value,
-            "fechaSalida": fechaSalida.value,
-            "correo": correo.value,
-            "telefono": telefono.value,
+            let body = `
+                Hola,
+
+                Me gustaría reservar una habitación en la Posada Campesina para las fechas ${fechaLlegada.value} al ${fechaSalida.value}. Por favor, contáctenme a través de este número ${telefono.value} para confirmar la disponibilidad. ¡Gracias!
+
+                Atentamente,
+                ${nombre.value}
+            `;
+
+            console.log(body);
+            aReservas.setAttribute('href', `mailto:oiarregoces@uniguajira.edu.co?subject=Reserva Posada Campesina&body=${encodeURIComponent(body)}`);
+            aReservas.click();
+
+            btnSubmitReservas.setAttribute('data-bs-dismiss', 'modal');
+            btnSubmitReservas.click();
+
+            formReservas.reset();
+            formReservas.classList.remove('was-validated');
+            location.reload()
         }
-
-        aReservas.setAttribute('href', `mailto:oiarregoces@uniguajira.edu.co?subject=Nombre: ${body.nombre} - Correo: ${body.correo}&body=${body}`);
-        aReservas.click();
-
-
-        btnSubmitReservas.setAttribute('data-bs-dismiss', 'modal');
-
-    })
+    });
 
 })()
