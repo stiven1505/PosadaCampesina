@@ -39,6 +39,7 @@ Main #main-header-landing {
     align-items: center;
     padding: 32px;
     margin-bottom: 2%;
+    flex-direction: column; /* Cambio importante */
 }
 
    /*Texto*/
