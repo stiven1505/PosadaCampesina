@@ -1,3 +1,32 @@
+/*Modal*/
+.modal{
+  font-family: 'League Spartan', sans-serif;
+}
+.modal h1{
+  width: 100%;
+  text-align: center;
+}
+.content-btnSubmitReservas{
+  display: grid;
+  place-items: center;
+}
+.content-btnSubmitReservas .btn-success{
+  background-color: #A1232D;
+  border: #A1232D;
+}
+.content-btnSubmitReservas .btn-success:active{
+  background-color: #A1232D;
+  border: #A1232D;
+}
+.content-btnSubmitReservas .btn-success:hover{
+  background-color: #a1232de0;
+  border: #a1232de0;
+}
+.content-btnSubmitReservas a {
+  display: none;
+}
+
+
 Main #main-header {
   width: 100%;
   min-height: 40vh;
