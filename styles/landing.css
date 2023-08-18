@@ -122,7 +122,7 @@ Main #main-header-landing {
         line-height: 28px;
         letter-spacing: 0em;
         text-align: center;
-        
+        padding: 15px;
         color: #ffffff;
     }
 
@@ -152,8 +152,8 @@ Main #main-header-landing {
         display: flex;
         justify-content: center; 
         align-items: center; 
-        height: 40vh; 
-        margin-bottom: 3%;
+        height: 70vh; 
+        margin-bottom: 4%;
       }
       
       .imagen-servicios {
@@ -264,7 +264,7 @@ Main #main-header-landing {
 
             /*Imagen*/
             .content-imagen-servicios {
-                height: 23vh;   
+                height: 50vh;   
             }
 
             /*Texto*/
@@ -315,7 +315,22 @@ Main #main-header-landing {
     /*Tablet 
      Modificacion Galeria-Imagenes*/
 
- 
+     @media (max-width:600px) {
+                /*Servicios*/
+
+            /*Imagen*/
+            .content-imagen-servicios {
+                height: 40vh;   
+            }
+     }
+     @media (max-width:500px) {
+        /*Servicios*/
+
+    /*Imagen*/
+    .content-imagen-servicios {
+        height: 30vh;   
+    }
+}
 /*Movil*/
 
 
@@ -368,7 +383,7 @@ Main #main-header-landing {
         /*Imagenes*/
 
         .content-imagen-servicios {
-            height: 13vh;
+            height: 25vh;
         }
 
 
