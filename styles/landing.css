@@ -1,3 +1,25 @@
+/*Modal*/
+.modal{
+    font-family: 'League Spartan', sans-serif;
+}
+.modal h1{
+    width: 100%;
+    text-align: center;
+}
+.content-btnSubmitReservas{
+    display: grid;
+    place-items: center;
+}
+.btn-success{
+    background-color: #A1232D;
+    border: #A1232D;
+}
+.btn-success:active{
+    background-color: #a1232d81;
+    border: #a1232d81;
+}
+
+
 /*Header Main*/
 
 Main #main-header-landing {
