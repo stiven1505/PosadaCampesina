@@ -1,31 +1,30 @@
 /*Modal*/
-.modal{
-  font-family: 'League Spartan', sans-serif;
+.modal {
+  font-family: "League Spartan", sans-serif;
 }
-.modal h1{
+.modal h1 {
   width: 100%;
   text-align: center;
 }
-.content-btnSubmitReservas{
+.content-btnSubmitReservas {
   display: grid;
   place-items: center;
 }
-.content-btnSubmitReservas .btn-success{
-  background-color: #A1232D;
-  border: #A1232D;
+.content-btnSubmitReservas .btn-success {
+  background-color: #a1232d;
+  border: #a1232d;
 }
-.content-btnSubmitReservas .btn-success:active{
-  background-color: #A1232D;
-  border: #A1232D;
+.content-btnSubmitReservas .btn-success:active {
+  background-color: #a1232d;
+  border: #a1232d;
 }
-.content-btnSubmitReservas .btn-success:hover{
+.content-btnSubmitReservas .btn-success:hover {
   background-color: #a1232de0;
   border: #a1232de0;
 }
 .content-btnSubmitReservas a {
   display: none;
 }
-
 
 Main #main-header {
   width: 100%;
@@ -38,45 +37,44 @@ Main #main-header {
   justify-content: center;
   align-items: center;
   padding: 32px;
+  flex-direction: column;
 }
 
 #main-header .content-gif {
-    width: 473.024px;
-    height: 250.846px;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column; /* Cambio importante */
-    background: rgba(217, 217, 217, 0.20);
-    backdrop-filter: blur(5px);
-    padding: 50px 40px 50px 40px;
-    margin-bottom: 84px;
-    margin-top: 38px;
-}
-#btn-reserva{
-    width: 473.024px;
-    height: 46px;
-    display: flex;
-    background: rgba(159, 36, 44, 0.5); /* Rojo con transparencia */
-    backdrop-filter: blur(5px);
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px;
-    margin-top: -1%;
+width: 252.923px;
+height: 96.923px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column; /* Cambio importante */
+  background: rgba(217, 217, 217, 0.2);
+  backdrop-filter: blur(5px);
+
+  margin-bottom: 84px;
+  margin-top: 38px;
 }
 
+#btn-reserva {
+width: 154px;
+  height: 28px;
+  display: flex;
+  background: rgba(159, 36, 44, 0.5); /* Rojo con transparencia */
+  backdrop-filter: blur(5px);
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin-top: -1%;
+}
 
 .btn {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
 
-    color: #ffffff;
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-   
-  }
-
-  .btn i {
-    margin-right: 10px;
-  }
+.btn i {
+  margin-right: 10px;
+}
 
 #main-header img {
   width: auto;
@@ -572,7 +570,32 @@ footer {
     padding: 50px 40px 50px 40px;
     margin-bottom: 84px;
     margin-top: 38px;
+    flex-direction: column;
   }
+
+  #btn-reserva {
+  width: 250px;
+  height: 38px;
+  display: flex;
+  background: rgba(159, 36, 44, 0.5); /* Rojo con transparencia */
+  backdrop-filter: blur(5px);
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin-top: -1%;
+}
+
+.btn {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn i {
+  margin-right: 10px;
+}
+
 
   #main-body .container-title {
     width: 500px;
